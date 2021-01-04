@@ -1,0 +1,12 @@
+* resistencias en paralelo circuito 3
+V1 0 1 type=vdc vdc=9
+V2 0 4 type=vdc vdc=1.5
+R1 1 2 47
+R2 2 3 220
+R3 2 4 180 
+R4 3 5 1000
+R5 5 0 560
+Vdummy1 5 0 vdc=0 type=vdc
+.op
+
+.end

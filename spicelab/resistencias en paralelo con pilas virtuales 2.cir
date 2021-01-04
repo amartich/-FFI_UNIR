@@ -1,0 +1,11 @@
+* resistencias en paralelo 2
+V 1 0 type=vdc vdc=0
+V1 1 2 type=vdc vdc=0
+V2 1 3 type=vdc vdc=0
+V3 1 4 type=vdc vdc=0
+R1 2 0  10k
+R2 3 0  2k
+R3 4 0  1k
+Vdummy2 5 0 vdc=0 type=vdc
+.op
+.end
